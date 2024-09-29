@@ -1,0 +1,14 @@
+{
+  "name": "backstage-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vaymaks",
+  "license": "ISC",
+  "description": "sunset new project",
+  "dependencies": {
+    "puppeteer-html-pdf": "^4.0.8"
+  }
+}
