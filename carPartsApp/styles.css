@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+header,
+section {
+  margin-bottom: 20px;
+}
+header h1 {
+  text-align: center;
+}
+form {
+  margin: 20px 0;
+}
+form div {
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #5cb85c;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+button:hover {
+  background-color: #4cae4c;
+}
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  background-color: white;
+  width: 200px;
+}
