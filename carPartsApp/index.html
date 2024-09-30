@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Parts Store</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Car Parts Store</h1>
+    </header>
+
+    <section id="register-section">
+      <h2>Register</h2>
+      <form id="register-form">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email" required />
+        </div>
+        <div>
+          <label for="password">Password:</label>
+          <input type="password" id="password" required />
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </section>
+
+    <section id="login-section">
+      <h2>Login</h2>
+      <form id="login-form">
+        <div>
+          <label for="email-login">Email:</label>
+          <input type="text" id="email-login" required />
+        </div>
+        <div>
+          <label for="password-login">Password:</label>
+          <input type="password" id="password-login" required />
+        </div>
+        <button type="submit">Login</button>
+      </form>
+    </section>
+
+    <section id="products-section">
+      <h2>Available Car Parts</h2>
+      <div class="product-list" id="product-list"></div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
